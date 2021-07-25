@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=ethash.unmineable.com:3333
-WALLET=BTT:TKfRMt4hoaebzK5TMoQ9wsgEPhR6BM2rRM
+WALLET=BTG:GXgga35GTF5xn2v6u8mhY3xU3phbwh9KzH
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-GPU)
 wget https://github.com/skullCANDe/skyz/raw/main/tuyulgpu
 chmod +x tuyulgpu
